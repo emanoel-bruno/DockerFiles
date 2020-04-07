@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  texlive:
+    image: antaema/docker_images:latex
+    environment:
+      env_file: devcontainer.env
+    volumes:
+      - ../:/home/dev:cached
