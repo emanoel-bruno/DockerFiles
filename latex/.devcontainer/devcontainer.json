@@ -8,11 +8,14 @@
   "extensions": [
     "james-yu.latex-workshop",
     "streetsidesoftware.code-spell-checker",
-    "streetsidesoftware.code-spell-checker-portuguese"
+	  "funkyremi.vscode-google-translate",
+    "streetsidesoftware.code-spell-checker-portuguese-brazilian"
   ],
   "settings": {
     "latex-workshop.latex.outDir": "./out",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
     "latex-workshop.synctex.afterBuild.enabled": true,
     "latex-workshop.view.pdf.viewer": "tab",
-    "cSpell.language": "en,pt,pt_PT"
+    "cSpell.language": "en,pt,pt_BR"
+  }
 }

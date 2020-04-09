@@ -7,3 +7,4 @@ services:
       env_file: devcontainer.env
     volumes:
       - ../:/home/dev:cached
+    command: sleep infinity
