@@ -3,7 +3,6 @@
   "context": ".",
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "texlive",
-  "shutdownAction": "stopCompose",
   "workspaceFolder": "/home/dev",
   "extensions": [
     "james-yu.latex-workshop",

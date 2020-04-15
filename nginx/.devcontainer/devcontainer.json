@@ -15,7 +15,7 @@
 	"settings": {
 		"cSpell.language": "en,pt,pt_BR"
 	},
-
+	
 	"extensions": [
 		"william-voyek.vscode-nginx",
 		"hookyqr.beautify",

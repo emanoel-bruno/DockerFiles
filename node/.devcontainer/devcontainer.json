@@ -1,0 +1,28 @@
+{
+  "name": "front",
+  "context": ".",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "front",
+  "workspaceFolder": "/var/www/html/",
+  "postCreateCommand": "rm -r node_modules && yarn install",
+  "extensions": [
+	"streetsidesoftware.code-spell-checker",
+	"funkyremi.vscode-google-translate",
+	"streetsidesoftware.code-spell-checker-portuguese-brazilian",
+	"dbaeumer.vscode-eslint",
+	"dsznajder.es7-react-js-snippets",
+	"christian-kohler.path-intellisense",
+	"pmneo.tsimporter",
+	"vscode-icons-team.vscode-icons",
+	"syler.sass-indented",
+	"visualstudioexptteam.vscodeintellicode",
+	"eamodio.gitlens",
+	"lacroixdavid1.vscode-format-context-menu",
+	"marioqueiros.camelcase",
+	"kameshkotwani.google-search",
+	"esbenp.prettier-vscode"
+],
+  "settings": {
+    "cSpell.language": "en,pt,pt_BR"
+  }
+}

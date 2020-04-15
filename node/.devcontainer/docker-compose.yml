@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  front:
+    image: antaema/docker_images:node
+    container_name: front
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "80:3000"
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /var/www/html/
+    volumes:
+      - ./:/var/www/html/
